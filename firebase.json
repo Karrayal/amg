@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "amg",
+      "public": "dist/amg",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

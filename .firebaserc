@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fir-bruvaa": {
+      "hosting": {
+        "amg": [
+          "fir-bruvaa"
+        ]
+      }
+    }
+  }
+}
